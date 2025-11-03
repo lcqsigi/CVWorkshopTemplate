@@ -4,13 +4,13 @@ layout: homepage
 
 ## About Me
 
-Sean Purcell is a digital health humanist who works at UCSF>
+Roel Sanchez is a visiting scholar at UC Berkeley
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
-- **Digital Health Humanities:** I do things.
+- **Sustainability:**
+- **Semiconductors**
+- **Petrochemicals**
 
 {% include_relative _includes/education.md %}
 
