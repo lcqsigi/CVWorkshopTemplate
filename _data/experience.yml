@@ -32,10 +32,29 @@ main:
     notes: Finished
     
   - type: job
-    title: Example Job # for type.employment.
-    institution: University University
+    title: Innovation Manager # for type.employment.
+    institution: BASF Corp
     department: Department
     years: 2024 - Present
+
+
+  - type: job
+    title: Research Scientist # for type.employment.
+    institution: BASF Corp
+    department: Scientific Modeling
+    years: 2014 - 2023
+
+  - type: job
+    title: Research Scientist # for type.employment.
+    institution: BASF SE
+    department: Scientific Modeling
+    years: 2013 - 2014
+
+  - type: job
+    title: Research Scientist # for type.employment.
+    institution: Robert Bosch LLC
+    department: Energy Group
+    years: 2010 - 2012
     
   - type: service
     title: A role
