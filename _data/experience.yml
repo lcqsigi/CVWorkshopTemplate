@@ -8,12 +8,27 @@ main:
     notes: Finished
 
   - type: education
-    degreepath: This is a degree path # for type.education.
+    degreepath: Postdoctoral Researcher
     institution: Harvard University
     department: Chemistry
-    advisors: Alan Aspuru-Guzik
-    thesis: "Making Github Templates"
+    advisors: Prof. Alán Aspurú-Guzik
     years: 2008 - 2010
+    notes: Finished
+
+  - type: education
+    degreepath: PhD in Chemistry
+    institution: Georgia Institute of Technology
+    department: Chemistry
+    advisors: Prof. Jean-Luc Brédas
+    years: 2003 - 2008
+    notes: Finished
+
+  - type: education
+    degreepath: BS in Chemistry
+    institution: Tecnológico de Monterrey
+    department: Chemistry
+    advisors: Prof. Marcelo Videa
+    years: 1999 - 2002
     notes: Finished
     
   - type: job
