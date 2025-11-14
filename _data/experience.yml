@@ -1,11 +1,11 @@
 main:
 
   - type: education
-    degreepath: This is a degree path # for type.education.
+    degreepath: Master in Business Administration # for type.education.
     institution: New York University
     department: Business School
-    advisors: Jane Doe, John Doe # for type.education.
-    thesis: "Making Github Templates" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
+    advisors: #Jane Doe, John Doe  for type.education.
+    thesis: #"Making Github Templates" # for type.education. You can use <i></i> to style long-form titles like for a dissertation.
     years: 2019 - 2023
     notes: Finished
 
