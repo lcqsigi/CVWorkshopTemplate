@@ -24,6 +24,13 @@ main:
     notes: Finished
 
   - type: education
+    degreepath: Master in Chemistry # for type.education.
+    institution: Georgia Institute of Technology
+    department: Chemistry
+    years: 2003 - 2025
+    notes: Finished
+
+  - type: education
     degreepath: BS in Chemistry (minor in Chemical Engineering)
     institution: Tecnológico de Monterrey
     department: Chemistry
