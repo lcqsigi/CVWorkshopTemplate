@@ -27,7 +27,7 @@ main:
     degreepath: MS in Chemistry # for type.education.
     institution: Georgia Institute of Technology
     department: Chemistry
-    years: 2003 - 2025
+    years: 2003 - 2005
     notes: Finished
 
   - type: education
