@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-Roel Sanchez is a research scientist at BASF Corp and visiting scholar at UC Berkeley. 
+Roel Sanchez is a Research Scientist at BASF Corp and visiting scholar at UC Berkeley. 
 
 ## Research Interests
 
