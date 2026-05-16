@@ -1,70 +1,348 @@
-main: # You can enter in your items in a long list in this form. A few notes: they will not automatically be listed by time, so you will need to order it manually, with most recent at the top and least recent at the bottom.
-
-  - type: essay # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
-    title: "A Journal Publication"
-    authors: John Doe # for multiple authors, you can use the <strong></strong> or <b></b> to emphasize your authorship.
-    pub_abbr: Pub # for type:essay
-    publication: Publication # for type:essay
-    date: 2024
-    doi: https://digitalhealthhumanities.github.io/CVWorkshop/ # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-    image: ./assets/img/teaser_example_2.png #for type:essay. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
-    notes:
+main:
+  - type: essay
+    title: "Competitive reactivity drives size-and composition-focusing in multimetallic nanocrystals"
+    authors: "Yoon, J.; Oh, J.; Kim, D.; Chung, P.-H.; Hong, N.; Heinlein, J.; Lizandara-Pueyo, C.; Sánchez-Carrera, R.S.; Park, J.; Jung, H.-T.; Cargnello, M."
+    pub_abbr: "Science"
+    publication: "Science 2026, 392 (6798), eaea8044"
+    date: 2026
     
-  - type: conference
-    title: "A Conference Publication"
-    authors: Jane Doe
-    conference: A Conference # for type:conference
-    date: October 2024
-    notes: Upcoming
+  - type: essay
+    title: "Activity and Kinetics of Ethanol-to-Acetone Conversion via Magnetic Induction Heating"
+    authors: "Thompson, R.; Ko, B.; Johnson, G.; Kobayashi, D.; Chen, J.-P.; Lizandara-Pueyo, C.; Rodewald, D.; Sanchez-Carrera, R.S.; Sasmaz, E."
+    pub_abbr: "ACS Sustainable Chemistry & Engineering"
+    publication: "ACS Sustainable Chemistry & Engineering 2026"
+    date: 2026
     
-  - type: conference
-    title: "A Conference Publication"
-    authors: Jane Doe
-    conference: A Conference # for type:conference
-    date: October 2024
-    notes: Upcoming
-
-  - type: conference
-    title: "A Conference Publication"
-    authors: Jane Doe
-    conference: A Conference # for type:conference
-    date: October 2024
-    notes: Upcoming
-      
-  - type: grant # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
-    title: A Grant
-    date: 2024 - 2025
-    amount: $5 # for type:award, type:grant
-    notes: Declined
-
-  - type: award # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments
-    title: Award Title
-    date: 2024
-    institution: Award Granting Institution # for type:award, type:grant
-    amount: # for type:award, type:grant
-    awardedfor: "A Conference Publication" # for type:award. This will let you write the specific project if applicable. Include '' for short work and <i></i> for books and films.
-
-  - type: art
-    title: <i>An Art Project</i>
-    authors: Sean Purcell
+  - type: essay
+    title: "The role of induction heating in catalytic propane dehydrogenation"
+    authors: "Ko, B.; Wang, H.; Chen, J.-P.; Lizandara-Pueyo, C.; Sanchez-Carrera, R.S.; Sasmaz, E."
+    pub_abbr: "Chemical Engineering Journal"
+    publication: "Chemical Engineering Journal 2025, 524, 168972"
+    date: 2025
+    
+  - type: essay
+    title: "Tuning 1, 3-Butadiene selectivity from ethanol in a tandem reaction with induction heating"
+    authors: "Wang, H.; Ko, B.; Pham, J.M.Q.; Wang, N.; Lizandara-Pueyo, C.; Chen, J.-P.; Sanchez-Carrera, R.S.; Sasmaz, E."
+    pub_abbr: "Chemical Engineering Journal"
+    publication: "Chemical Engineering Journal 2025, 503, 158302"
+    date: 2025
+    
+  - type: essay
+    title: "Microkinetic modeling of propene combustion on a stepped, metallic palladium surface and the importance of oxygen coverage"
+    authors: "Streibel, V.; Aljama, H.A.; Yang, A.-C.; Choksi, T.S.; Sanchez-Carrera, R.S.; Schäfer, A.; Li, Y.; Cargnello, M.; Abild-Pedersen, F."
+    pub_abbr: "ACS Catalysis"
+    publication: "ACS Catalysis 2022, 12 (3), 1742-1757"
     date: 2022
-    image: ./assets/img/TI_ProdStill1.png
-    displayed: Displayed at a gallery. 
-    medium: Made of specific materials.
-        
-#  - type: # types include "essay" for peer-reviewed work, "conference" for presentations, "grant" for fellowships and other funding lines, "award" for awarded accomplishments, and "art" for artistic project, installation, or show.
-#    title: 
-#    authors: 
-#    pub_abbr: # for type:essay
-#    publication: # for type:essay
-#    conference: # for type:conference
-#    date: 
-#    doi: # this will provide the link to the work. You can also host .pdfs of your work on this site in the assets folder. Link it there: "./assets/pdf/[filename].pdf"
-#    code: # for type:essay, type:conference. This is meant to link to a code repo.
-#    page: # for type:essay, type:conference. This is meant to link to an external site that may not be official, like a blog post.
-#    institution: # for type:award, type:grant
-#    amount: # for type:award, type:grant
-#    awardedfor: # for type:award. This will let you write the specific project if applicable. Include "" for short work and <i></i> for books and films.
-#    image: #for type:essay, type:art. You will need to link to the file in your assets folder ./assets/img/[FILENAME].[FILETYPE]
-#    displayed: Displayed at Common Ground Graduate Conference in April 2023, and HASTAC Conference in June 2023 # for type:art. Refers to where and when the art piece was shown.
-#    notes:
+    
+  - type: essay
+    title: "Insights and comparison of structure–property relationships in propane and propene catalytic combustion on Pd-and Pt-based catalysts"
+    authors: "Yang, A.-C.; Streibel, V.; Choksi, T.S.; Aljama, H.; Werghi, B.; Bare, S.R.; Sánchez-Carrera, R.S.; Schäfer, A.; Li, Y.; Abild-Pedersen, F.; Cargnello, M."
+    pub_abbr: "Journal of Catalysis"
+    publication: "Journal of Catalysis 2021, 401, 89-101"
+    date: 2021
+    
+  - type: essay
+    title: "Revealing the structure of a catalytic combustion active-site ensemble combining uniform nanocrystal catalysts and theory insights"
+    authors: "Yang, A.-C.; Choksi, T.; Streibel, V.; Aljama, H.; Wrasman, C.J.; Roling, L.T.; Goodman, E.D.; Thomas, D.; Bare, S.R.; Sánchez-Carrera, R.S.; Schäfer, A.; Li, Y.; Abild-Pedersen, F.; Cargnello, M."
+    pub_abbr: "Proceedings of the National Academy of Sciences"
+    publication: "Proceedings of the National Academy of Sciences 2020, 117 (26), 14721-14729"
+    date: 2020
+    
+  - type: essay
+    title: "Modeling the migration of platinum nanoparticles on surfaces using a kinetic Monte Carlo approach"
+    authors: "Li, L.; Plessow, P.N.; Rieger, M.; Sauer, S.; Sánchez-Carrera, R.S.; Schaefer, A.; Abild-Pedersen, F."
+    pub_abbr: "The Journal of Physical Chemistry C"
+    publication: "The Journal of Physical Chemistry C 2017, 121 (8), 4261-4269"
+    date: 2017
+    
+  - type: essay
+    title: "A novel class of halogen-free, super-conductive lithium argyrodites: Synthesis and characterization"
+    authors: "Schneider, H.; Du, H.; Kelley, T.; Leitner, K.; Maat, J.T.; Scordilis-Kelley, C.; Sanchez-Carrera, R.; Kovalev, I.; Mudalige, A.; Kulisch, J.; Safont-Sempere, M.M.; Hartmann, P.; Weiβ, T.; Schneider, L.; Hinrichsen, B."
+    pub_abbr: "Journal of Power Sources"
+    publication: "Journal of Power Sources 2017, 366, 151-160"
+    date: 2017
+    
+  - type: essay
+    title: "Modeling the interface of platinum and α-quartz (001): Implications for sintering"
+    authors: "Plessow, P.N.; Sánchez-Carrera, R.S.; Li, L.; Rieger, M.; Sauer, S.; Schaefer, A.; Abild-Pedersen, F."
+    pub_abbr: "The Journal of Physical Chemistry C"
+    publication: "The Journal of Physical Chemistry C 2016, 120 (19), 10340-10350"
+    date: 2016
+    
+  - type: essay
+    title: "Anisotropic electron mobility studies on Cl2-NDI single crystals and the role of static and dynamic lattice deformations upon temperature variation"
+    authors: "Hansen, N.H.; May, F.; Kälblein, D.; Schmeiler, T.; Lennartz, C.; Sanchez-Carrera, R.; Steeger, A.; Burschka, C.; Stolte, M.; Würthner, F.; Brill, J.; Pflaum, J."
+    pub_abbr: "arXiv"
+    publication: "arXiv preprint arXiv:1501.01856 2015"
+    date: 2015
+    
+  - type: essay
+    title: "Computational Raman spectroscopy of organometallic reaction products in lithium and sodium-based battery systems"
+    authors: "Sánchez-Carrera, R.S.; Kozinsky, B."
+    pub_abbr: "Physical Chemistry Chemical Physics"
+    publication: "Physical Chemistry Chemical Physics 2014, 16 (44), 24549-24558"
+    date: 2014
+    
+  - type: essay
+    title: "A critical review of Li/air batteries"
+    authors: "Christensen, J.; Albertus, P.; Sanchez-Carrera, R.S.; Lohmann, T.; Kozinsky, B.; Liedtke, R.; Ahmed, J.; Kojic, A."
+    pub_abbr: "Journal"
+    publication: "2011, 159 (2), R1-R30"
+    date: 2011
+    
+  - type: essay
+    title: "The Harvard clean energy project: large-scale computational screening and design of organic photovoltaics on the world community grid"
+    authors: "Hachmann, J.; Olivares-Amaya, R.; Atahan-Evrenk, S.; Amador-Bedolla, C.; Sánchez-Carrera, R.S.; Gold-Parker, A.; Vogt, L.; Brockway, A.M.; Aspuru-Guzik, A."
+    pub_abbr: "The Journal of Physical Chemistry Letters"
+    publication: "The Journal of Physical Chemistry Letters 2011, 2 (17), 2241-2251"
+    date: 2011
+    
+  - type: essay
+    title: "From computational discovery to experimental characterization of a high hole mobility organic crystal"
+    authors: "Sokolov, A.N.; Atahan-Evrenk, S.; Mondal, R.; Akkerman, H.B.; Sánchez-Carrera, R.S.; Granados-Focil, S.; Schrier, J.; Mannsfeld, S.C.; Zoombelt, A.P.; Bao, Z.; Aspuru-Guzik, A."
+    pub_abbr: "Nature communications"
+    publication: "Nature communications 2011, 2 (1), 437"
+    date: 2011
+    
+  - type: essay
+    title: "Identifying capacity limitations in the Li/oxygen battery using experiments and modeling"
+    authors: "Albertus, P.; Girishkumar, G.; McCloskey, B.; Sánchez-Carrera, R.S.; Kozinsky, B.; Christensen, J.; Luntz, A.C."
+    pub_abbr: "Journal of The Electrochemical Society"
+    publication: "Journal of The Electrochemical Society 2011, 158 (3), A343-A351"
+    date: 2011
+    
+  - type: essay
+    title: "Accelerated computational discovery of high-performance materials for organic photovoltaics by means of cheminformatics"
+    authors: "Olivares-Amaya, R.; Amador-Bedolla, C.; Hachmann, J.; Atahan-Evrenk, S.; Sanchez-Carrera, R.S.; Vogt, L.; Aspuru-Guzik, A."
+    pub_abbr: "Energy & Environmental Science"
+    publication: "Energy & Environmental Science 2011, 4 (12), 4849-4861"
+    date: 2011
+    
+  - type: essay
+    title: "Interaction of charge carriers with lattice vibrations in oligoacene crystals from naphthalene to pentacene"
+    authors: "Sánchez-Carrera, R.S.; Paramonov, P.; Day, G.M.; Coropceanu, V.; Brédas, J.-L."
+    pub_abbr: "Journal of the American Chemical Society"
+    publication: "Journal of the American Chemical Society 2010, 132 (41), 14437-14446"
+    date: 2010
+    
+  - type: essay
+    title: "Influence of structural dynamics on polarization energies in anthracene single crystals"
+    authors: "Martinelli, N.G.; Idé, J.; Sánchez-Carrera, R.S.; Coropceanu, V.; Brédas, J.-L.; Ducasse, L.; Castet, F.; Cornil, J.; Beljonne, D."
+    pub_abbr: "The Journal of Physical Chemistry C"
+    publication: "The Journal of Physical Chemistry C 2010, 114 (48), 20678-20685"
+    date: 2010
+    
+  - type: essay
+    title: "Theoretical Characterization of the Air-Stable, High-Mobility Dinaphtho[2,3-b:2′3′-f]thieno[3,2-b]-thiophene Organic Semiconductor"
+    authors: "Sánchez-Carrera, R.S.; Atahan, S.; Schrier, J.; Aspuru-Guzik, A."
+    pub_abbr: "The Journal of Physical Chemistry C"
+    publication: "The Journal of Physical Chemistry C 2010, 114 (5), 2334-2340"
+    date: 2010
+    
+  - type: essay
+    title: "Failure of conventional density functionals for the prediction of molecular crystal polymorphism: a quantum Monte Carlo study"
+    authors: "Hongo, K.; Watson, M.A.; Sánchez-Carrera, R.S.; Iitaka, T.; Aspuru-Guzik, A."
+    pub_abbr: "The Journal of Physical Chemistry Letters"
+    publication: "The Journal of Physical Chemistry Letters 2010, 1 (12), 1789-1794"
+    date: 2010
+    
+  - type: essay
+    title: "Optical absorption and emission properties of end-capped oligothienoacenes: A joint theoretical and experimental study"
+    authors: "Sánchez-Carrera, R.S.; Delgado, M.C.R.; Ferrón, C.C.; Osuna, R.M.; Hernández, V.; Navarrete, J.T.L.; Aspuru-Guzik, A."
+    pub_abbr: "Organic Electronics"
+    publication: "Organic Electronics 2010, 11 (10), 1701-1712"
+    date: 2010
+    
+  - type: essay
+    title: "Electronic Properties of the 2,6-Diiododithieno[3,2-b:2′,3′-d]thiophene Molecule and Crystal: A Joint Experimental and Theoretical Study"
+    authors: "Sánchez-Carrera, R.S.; Odom, S.A.; Kinnibrugh, T.L.; Sajoto, T.; Kim, E.-G.; Timofeeva, T.V.; Barlow, S.; Coropceanu, V.; Marder, S.R.; Brédas, J.-L."
+    pub_abbr: "The Journal of Physical Chemistry B"
+    publication: "The Journal of Physical Chemistry B 2010, 114 (2), 749-755"
+    date: 2010
+    
+  - type: essay
+    title: "Impact of perfluorination on the charge-transport parameters of oligoacene crystals"
+    authors: "Delgado, M.C.R.; Pigg, K.R.; Filho, D.A.D.S.; Gruhn, N.E.; Sakamoto, Y.; Suzuki, T.; Osuna, R.M.; Casado, J.; Hernández, V.; Navarrete, J.T.L.; Martinelli, N.G.; Cornil, J.; Sánchez-Carrera, R.S.; Coropceanu, V.; Brédas, J.-L."
+    pub_abbr: "Journal of the American Chemical Society"
+    publication: "Journal of the American Chemical Society 2009, 131 (4), 1502-1512"
+    date: 2009
+    
+  - type: essay
+    title: "Interaction of charge carriers with lattice vibrations in organic molecular semiconductors: naphthalene as a case study"
+    authors: "Coropceanu, V.; Sánchez-Carrera, R.S.; Paramonov, P.; Day, G.M.; Brédas, J.-L."
+    pub_abbr: "The Journal of Physical Chemistry C"
+    publication: "The Journal of Physical Chemistry C 2009, 113 (11), 4679-4686"
+    date: 2009
+    
+  - type: essay
+    title: "Influence of intermolecular vibrations on the electronic coupling in organic semiconductors: the case of anthracene and perfluoropentacene"
+    authors: "Martinelli, N.G.; Olivier, Y.; Athanasopoulos, S.; Delgado, M.R.; Pigg, K.R.; Filho, D.A.D.S.; Sánchez‐Carrera, R.S.; Venuti, E.; Valle, R.G.D.; Brédas, J.; Beljonne, D.; Cornil, J."
+    pub_abbr: "ChemPhysChem"
+    publication: "ChemPhysChem 2009, 10 (13), 2265-2273"
+    date: 2009
+    
+  - type: essay
+    title: "Charge-transport properties of the 1, 4-diiodobenzene crystal: A quantum-mechanical study"
+    authors: "Sánchez-Carrera, R.S.; Coropceanu, V.; Kim, E.-G.; Brédas, J.-L."
+    pub_abbr: "Chemistry of Materials"
+    publication: "Chemistry of Materials 2008, 20 (18), 5832-5838"
+    date: 2008
+    
+  - type: essay
+    title: "Theoretical Characterization of Charge Transport in Organic Molecular Crystals"
+    authors: "Sánchez-Carrera, R. S."
+    pub_abbr: "Ph.D. Thesis"
+    publication: "Georgia Institute of Technology, Atlanta, GA, 2008"
+    date: 2008
+    doi: "https://repository.gatech.edu/items/f2382ff5-735c-412c-9325-c693fe2f47a4"
+    
+  - type: essay
+    title: "Charge transport parameters of the pentathienoacene crystal"
+    authors: "Kim, E.-G.; Coropceanu, V.; Gruhn, N.E.; Sánchez-Carrera, R.S.; Snoeberger, R.; Matzger, A.J.; Brédas, J.-L."
+    pub_abbr: "Journal of the American Chemical Society"
+    publication: "Journal of the American Chemical Society 2007, 129 (43), 13072-13081"
+    date: 2007
+    
+  - type: essay
+    title: "Vibronic coupling in the ground and excited states of oligoacene cations"
+    authors: "Sánchez-Carrera, R.S.; Coropceanu, V.; Filho, D.A.D.S.; Friedlein, R.; Osikowicz, W.; Murdey, R.; Suess, C.; Salaneck, W.R.; Brédas, J.-L."
+    pub_abbr: "The Journal of Physical Chemistry B"
+    publication: "The Journal of Physical Chemistry B 2006, 110 (38), 18904-18911"
+    date: 2006
+    
+  - type: essay
+    title: "Inner‐Phase Reaction Dynamics: The Influence of Hemicarcerand Polarizability and Shape on the Potential Energy Surface of an Inner‐Phase Reaction"
+    authors: "Sanchez-Carrera, R.S.; Kerdelhué, J.; Langenwalter, K.J.; Brown, N.; Warmuth, R."
+    pub_abbr: "Journal"
+    publication: "2005, 2005 (11), 2239-2249"
+    date: 2005
+    
+  - type: essay
+    title: "Rate acceleration through dispersion interactions: Effect of a hemicarcerand on the transition state of inner phase decompositions of diazirines"
+    authors: "Warmuth, R.; Kerdelhué, J.L.; Sanchez-Carrera, R.S.; Langenwalter, K.J.; Brown, N."
+    pub_abbr: "Angewandte Chemie-International Edition"
+    publication: "Angewandte Chemie-International Edition 2002, 41 (1), 96-99"
+    date: 2002
+    
+  # -------------------------
+  # PATENTS (same structure!)
+  # -------------------------
+  - type: patent
+    title: "Induction heating for dehydrogenation and dehydration reactions"
+    authors: "Carlos Lizandara Pueyo; Jian-Ping Chen; Michael Long LEJKOWSKI; Roel Sigifredo SANCHEZ-CARRERA; Erdem Sasmaz; Han Wang; Ben Ko; Ryan Zhao THOMPSON"
+    patent_number: "WO2026055189A1"
+    publication: "WO2026055189A1 (2026). Published application"
+    date: 2026
+    doi: "https://patents.google.com/patent/WO2026055189/en"
+    
+  - type: patent
+    title: "Lithium-ion battery with life extension additive"
+    authors: "John F. Christensen; Nalin Chaturvedi; Boris Kozinsky; Paul Albertus; Jasim Ahmed; Aleksandar Kojic; Timm Lohmann; Roel S. Sanchez-Carrera"
+    patent_number: "US9048505B2"
+    publication: "US20130115485A1 (2015). Published application"
+    date: 2015
+    doi: "https://patents.google.com/patent/US9048505/en"
+    
+  - type: patent
+    title: "High specific-energy li/o2-co2 battery"
+    authors: "Paul Albertus; Venkatasubramanian Viswanathan; John F. Christensen; Boris Kozinsky; Roel Sanchez-Carrera; Timm Lohmann"
+    patent_number: "US20120094193A1"
+    publication: "US20120094193A1 (2012). Published application"
+    date: 2012
+    doi: "https://patents.google.com/patent/US20120094193/en"
+    
+  - type: patent
+    title: "Metal/oxygen battery with internal oxygen reservoir"
+    authors: "John F. Christensen; Timm Lohmann; Paul Albertus; Boris Kozinsky; Roel Sanchez-Carrera; Aleksandar Kojic"
+    patent_number: "US10033036B2"
+    publication: "US20130330630A1 (2018). Published application"
+    date: 2018
+    doi: "https://patents.google.com/patent/US10033036/en"
+    
+  - type: patent
+    title: "High specific-energy li/02-co2 battery"
+    authors: "Paul Albertus; Venkatasubramanian Viswanathan; John F. Christensen; Boris Kozinsky; Roel Sanchez-Carrera; Timm Lohmann"
+    patent_number: "EP2792015A1"
+    publication: "EP2792015B1 (2014). Granted"
+    date: 2014
+    doi: "https://patents.google.com/patent/EP2792015/en"
+    
+  - type: patent
+    title: "Metal/oxygen battery with growth promoting structure"
+    authors: "Paul Albertus; John F. Christensen; Timm Lohmann; Roel Sanchez-Carrera; Boris Kozinsky; Christina Johnston"
+    patent_number: "US9531047B2"
+    publication: "US20140030612A1 (2016). Published application"
+    date: 2016
+    doi: "https://patents.google.com/patent/US9531047/en"
+    
+  - type: patent
+    title: "Electrolyte additive for metal-air batteries"
+    authors: "John F. Christensen; Timm Lohmann; Paul Albertus; Boris Kozinsky; Roel Sanchez-Carrera; Aleksandar Kojic"
+    patent_number: "US9093670B2"
+    publication: "US20130330641A1 (2015). Published application"
+    date: 2015
+    doi: "https://patents.google.com/patent/US9093670/en"
+    
+  - type: patent
+    title: "Reducing Oxygen and Electrolyte Transport Limitations in the Lithium/Oxygen Battery through Electrode Design and Wetting Control"
+    authors: "Paul Albertus; John F. Christensen; Timm Lohmann; Roel Sanchez-Carrera; Boris Kozinsky; Christina Johnston"
+    patent_number: "US20140017578A1"
+    publication: "US20140017578A1 (2014). Published application"
+    date: 2014
+    doi: "https://patents.google.com/patent/US20140017578/en"
+    
+  - type: patent
+    title: "Metal/Air Battery with Oxidation Resistant Cathode"
+    authors: "Timm Lohmann; John F. Christensen; Boris Kozinsky; Paul Albertus; Roel Sanchez-Carrera"
+    patent_number: "US20130280624A1"
+    publication: "US20130280624A1 (2013). Published application"
+    date: 2013
+    doi: "https://patents.google.com/patent/US20130280624/en"
+    
+  - type: patent
+    title: "Stable electrolyte materials for Li-air battery systems"
+    authors: "Roel S. Sanchez-Carrera; Boris Kozinsky; Timm Lohmann; Paul Albertus; John F. Christensen"
+    patent_number: "US10116021B2"
+    publication: "US20130095395A1 (2018). Published application"
+    date: 2018
+    doi: "https://patents.google.com/patent/US10116021/en"
+    
+  - type: patent
+    title: "Metal/air battery with electrochemical oxygen compression"
+    authors: "Paul S. Albertus; John F. Christensen; Timm Lohmann; Roel S. Sanchez-Carrera; Boris Kozinsky"
+    patent_number: "US9478836B2"
+    publication: "US20130344401A1 (2016). Published application"
+    date: 2016
+    doi: "https://patents.google.com/patent/US9478836/en"
+    
+  - type: patent
+    title: "Metal/air battery with gas separation nanostructure"
+    authors: "Timm Lohmann; John F. Christensen; Boris Kozinsky; Paul Albertus; Roel Sanchez-Carrera"
+    patent_number: "US9660312B2"
+    publication: "US20140234731A1 (2017). Published application"
+    date: 2017
+    doi: "https://patents.google.com/patent/US9660312/en"
+    
+  - type: patent
+    title: "Metal/air battery with gas driven mixing"
+    authors: "Paul S. Albertus; John F. Christensen; Timm Lohmann; Boris Kozinsky; Roel S. Sanchez-Carrera"
+    patent_number: "US9172123B2"
+    publication: "US20130344403A1 (2015). Published application"
+    date: 2015
+    doi: "https://patents.google.com/patent/US9172123/en"
+    
+  - type: patent
+    title: "Redox flow battery system including an anode electrode having a subsurface alloy"
+    authors: "Roel Sanchez-Carrera; Boris Kozinsky; Paul Albertus"
+    patent_number: "US9728803B2"
+    publication: "US20140234684A1 (2017). Published application"
+    date: 2017
+    doi: "https://patents.google.com/patent/US9728803/en"
+    
+  - type: patent
+    title: "Process for preparing metal and mixed metal oxide catalysts"
+    authors: "Enrique Iglesia; Mikalai ARTSIUSHEUSKI; Nicholas JAEGERS; Carlos Lizandara Pueyo; Roel Sigifredo SANCHEZ-CARRERA; Craig Jon CAIN-BORGMAN; Stephan A. Schunk; Sebastian Weber; Piyush Ingale; Noah SUBAT"
+    patent_number: "WO2025221999A1"
+    publication: "WO2025221999A1 (2025). Published application"
+    date: 2025
+    doi: "https://patents.google.com/patent/WO2025221999/en"
