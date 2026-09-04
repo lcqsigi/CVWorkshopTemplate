@@ -1,4 +1,26 @@
 main:
+
+  - type: essay
+    title: "Formation of Strong Brønsted Acid Sites on Aluminosilicate Surfaces during Catalytic Cracking"
+    authors: "Sawant, K.; Stockwell, D.; DeBellis, A.; Sánchez-Carrera, R.S.; Dorazio, L.; Sautet, P."
+    pub_abbr: "ACS Catalysis"
+    publication: "ACS Catalysis, Accepted"
+    date: 2026
+
+  - type: essay
+    title: "Enhancing CO Oxidation Rate via Electronic Tuning of CO Binding on Bimetallic Nanoparticle Catalysts"
+    authors: "Chung, P.-H.; Xie, S.; Li, X.; Mandal, S.C.; Zhang, Z.; Oh, J.; Liu, F.; et al."
+    pub_abbr: "JACS"
+    publication: "Journal of the American Chemical Society 2026"
+    date: 2026
+
+  - type: essay
+    title: "Synthesizing Colloidal Bimetallic Nanoparticles in Water Using a Dual-Ligand Strategy"
+    authors: "Chung, P.-H.; Herreros, A.M.F.; Oh, J.; Sánchez-Carrera, R.S.; et al."
+    pub_abbr: "Angew. Chem. Int. Ed."
+    publication: "Angewandte Chemie International Edition 2026, e5050054"
+    date: 2026
+    
   - type: essay
     title: "Competitive reactivity drives size-and composition-focusing in multimetallic nanocrystals"
     authors: "Yoon, J.; Oh, J.; Kim, D.; Chung, P.-H.; Hong, N.; Heinlein, J.; Lizandara-Pueyo, C.; Sánchez-Carrera, R.S.; Park, J.; Jung, H.-T.; Cargnello, M."
